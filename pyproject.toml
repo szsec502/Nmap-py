@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nmap-py"
+version = "0.1.0"
+description = ""
+authors = ["seaung <seaung.c0m7de@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-nmap = "^0.7.1"
+python3-nmap = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
